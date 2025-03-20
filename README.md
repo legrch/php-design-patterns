@@ -1,64 +1,43 @@
-### Design Patterns
+# Design Patterns in PHP
 
-| ![][B] [Behavioral]  | ![][C] [Creational] | ![][S] [Structural] |
+This repository contains examples of common design patterns implemented in PHP.
+
+| ![Behavioral](~images/B.png) [Behavioral](Behavioral/) | ![Creational](~images/C.png) [Creational](Creational/) | ![Structural](~images/S.png) [Structural](Structural/) |
 | ------------- | ------------- | ------------- |
-| [Chain of Responsibility] | [Abstract Factory] | [Adapter] |
-| [Command] | [Builder] | [Bridge] |
-| [Interpreter] | [Factory Method] | [Composite] |
-| [Iterator] | [Prototype] | [Decorator] |
-| [Mediator] | [Singleton] | [Facade] |
-| [Memento] |  | [Flyweight] |
-| [Observer] |  | [Proxy] |
-| [State] |  |  |
-| [Strategy] |  |  |
-| [Template Method] |  |  |
-| [Visitor] |  |  |
+| [Chain of Responsibility](Behavioral/ChainOfResponsobility/) | [Abstract Factory](Creational/AbstractFactory/) | [Adapter](Structural/Adapter/) |
+| [Command](Behavioral/Command/) | [Builder](Creational/Builder/) | [Bridge](Structural/Bridge/) |
+| [Interpreter](Behavioral/Interpreter/) | [Factory Method](Creational/FactoryMethod/) | [Composite](Structural/Composite/) |
+| [Iterator](Behavioral/Iterator/) | [Prototype](Creational/Prototype/) | [Decorator](Structural/Decorator/) |
+| [Mediator](Behavioral/Mediator/) | [Singleton](Creational/Singleton/) | [Facade](Structural/Facade/) |
+| [Memento](Behavioral/Memento/) | | [Flyweight](Structural/Flyweight/) |
+| [Observer](Behavioral/Observer/) | | [Proxy](Structural/Proxy/) |
+| [State](Behavioral/State/) | | |
+| [Strategy](Behavioral/Strategy/) | | |
+| [Template Method](Behavioral/TemplateMethod/) | | |
+| [Visitor](Behavioral/Visitor/) | | |
 
-![BCS]
+![Design Patterns Categories](~images/BCS.png)
 
-#### Relations between classes
+## Class Relationships
 
- ![aggregation] агрегация (aggregation) — описывает связь «часть»–«целое», в котором «часть» может существовать отдельно от «целого». Ромб указывается со стороны «целого».
+The following relationship types are used in the UML diagrams throughout this repository:
 
- ![composition] композиция (composition) — подвид агрегации, в которой «части» не могут существовать отдельно от «целого».
+![Aggregation](~images/aggregation.png) **Aggregation** - Describes a "whole-part" relationship where the "part" can exist independently of the "whole". The diamond is placed on the "whole" side.
 
- ![dependency] зависимость (dependency) — A dashed arrowhead line indicates a class that instantiates objects of another class. The arrow points to the class of the instantiated objects.
+![Composition](~images/composition.png) **Composition** - A subtype of aggregation in which the "parts" cannot exist separately from the "whole".
 
- ![generalization] обобщение (generalization) — отношение наследования или реализации интерфейса. Со стороны стрелки находится суперкласс или интерфейс.
+![Dependency](~images/dependency.png) **Dependency** - A dashed arrowhead line indicates a class that instantiates objects of another class. The arrow points to the class of the instantiated objects.
+
+![Generalization](~images/generalization.png) **Generalization** - Represents inheritance or interface implementation relationships. The arrow points to the superclass or interface.
+
+## Installation and Testing
+
+1. Clone the repository
+2. Run `composer install`
+3. Execute tests with `vendor/bin/phpunit`
 
 
-[B]: https://github.com/olegre/DesignPatterns/blob/master/~images/B.png
-[C]: https://github.com/olegre/DesignPatterns/blob/master/~images/C.png
-[S]: https://github.com/olegre/DesignPatterns/blob/master/~images/S.png
-[BCS]: https://github.com/olegre/DesignPatterns/blob/master/~images/BCS.png
-[aggregation]: https://github.com/olegre/DesignPatterns/blob/master/~images/aggregation.png
-[composition]: https://github.com/olegre/DesignPatterns/blob/master/~images/composition.png
-[dependency]: https://github.com/olegre/DesignPatterns/blob/master/~images/dependency.png
-[generalization]: https://github.com/olegre/DesignPatterns/blob/master/~images/generalization.png
-[Behavioral]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/>
-[Chain of Responsibility]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/ChainOfResponsobility>
-[Command]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Command>
-[Interpreter]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Interpreter>
-[Iterator]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Iterator>
-[Mediator]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Mediator>
-[Memento]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Memento>
-[Observer]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Observer>
-[State]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/State>
-[Strategy]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Strategy>
-[Template Method]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/TemplateMethod>
-[Visitor]: <https://github.com/olegre/DesignPatterns/tree/master/Behavioral/Visitor>
-[Creational]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/>
-[Abstract Factory]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/AbstractFactory>
-[Builder]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/Builder>
-[Factory Method]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/FactoryMethod>
-[Prototype]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/Prototype>
-[Singleton]: <https://github.com/olegre/DesignPatterns/tree/master/Creational/Singleton>
-[Structural]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/>
-[Adapter]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Adapter>
-[Bridge]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Bridge>
-[Composite]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Composite>
-[Decorator]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Decorator>
-[Facade]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Facade>
-[Flyweight]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Flyweight>
-[Proxy]: <https://github.com/olegre/DesignPatterns/tree/master/Structural/Proxy>
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
 

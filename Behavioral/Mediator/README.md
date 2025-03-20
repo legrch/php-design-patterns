@@ -1,11 +1,17 @@
-### Mediator
+# Mediator Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
+## Description
 Define an object that encapsulates how a set of objects interact. Promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interactions independently.
 
-![Mediator]
+## Structure
+![Mediator Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Mediator.png)
+
+## Implementation
+The example implements the Mediator pattern to define object behaviors and communication:
+
+## Sample Code
 
 ```php
 
@@ -26,9 +32,9 @@ $book->setAuthor("Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides");
 
 $this->assertEquals("Design Patterns: Elements of Reusable Object-Oriented Software", $title->getName());
 $this->assertEquals("Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides", $author->getName());
-
 ```
-_[ru][Ru Mediator]_
 
-[Mediator]: https://github.com/olegre/DesignPatterns/blob/master/~images/Mediator.png
-[Ru Mediator]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Mediator.png
+## When to Use
+- When a set of objects communicate in well-defined but complex ways
+- When reusing an object is difficult because it refers to and communicates with many other objects
+- When behavior that's distributed between several classes should be customizable without a lot of subclassing

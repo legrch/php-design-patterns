@@ -1,11 +1,17 @@
-### Memento
+# Memento Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
+## Description
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
-![Memento]
+## Structure
+![Memento Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Memento.png)
+
+## Implementation
+The example implements the Memento pattern to define object behaviors and communication:
+
+## Sample Code
 
 ```php
 
@@ -22,9 +28,9 @@ $originator->setState('Off');
 $memento = $caretaker->getMemento();
 
 $originator->restore($memento);
-
 ```
-_[ru][Ru Memento]_
 
-[Memento]: https://github.com/olegre/DesignPatterns/blob/master/~images/Memento.png
-[Ru Memento]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Memento.png
+## When to Use
+- When you need to capture an object's internal state for later restoration
+- When a direct interface to obtaining the state would expose implementation details
+- When you need to implement checkpoints and an undo mechanism

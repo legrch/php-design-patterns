@@ -1,11 +1,17 @@
-### State
+# State Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
+## Description
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
-![State]
+## Structure
+![State Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/State.png)
+
+## Implementation
+The example implements the State pattern to define object behaviors and communication:
+
+## Sample Code
 
 ```php
 
@@ -20,9 +26,9 @@ $this->assertInstanceOf('Behavioral\State\State\C', $context->getState());
 
 $context->request();
 $this->assertInstanceOf('Behavioral\State\State\A', $context->getState());
-
 ```
-_[ru][Ru State]_
 
-[State]: https://github.com/olegre/DesignPatterns/blob/master/~images/State.png
-[Ru State]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/State.png
+## When to Use
+- When an object's behavior depends on its state, and it must change its behavior at runtime
+- When operations have large, multipart conditional statements that depend on the object's state
+- When a context can be in one of many states, with state-specific behavior

@@ -1,14 +1,22 @@
-### Command
+# Command Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
-Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+## Description
+The Command pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
 
-![Command]
+## Structure
+![Command Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Command.png)
+
+## Implementation
+The example implements the Command pattern using a calculator scenario:
+- A `Calculator` class that serves as the receiver with operations and state
+- Concrete command classes (`Plus`, `Minus`, `Multiplication`, `Division`) that encapsulate specific operations
+- A `Window` class that acts as the invoker, accepting and executing commands
+
+## Sample Code
 
 ```php
-
 $window = new Window();
 $calculator = new Calculator();
 
@@ -23,9 +31,11 @@ $this->assertEquals(18, $calculator->getResult());
 
 $window->placeOperation(new Division($calculator, 2));
 $this->assertEquals(9, $calculator->getResult());
-
 ```
-_[ru][Ru Command]_
 
-[Command]: https://github.com/olegre/DesignPatterns/blob/master/~images/Command.png
-[Ru Command]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Command.png
+## When to Use
+- When you want to parameterize objects with operations
+- When you want to queue operations, schedule their execution, or execute them remotely
+- When you need to implement undo/redo functionality
+- When you want to structure a system around high-level operations built on primitive operations
+- When you need to decouple an object that invokes operations from the objects that actually perform these operations
