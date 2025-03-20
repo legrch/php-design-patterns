@@ -1,11 +1,17 @@
-### Facade
+# Facade Pattern
 
-#### Type: Structural
+## Type: Structural
 
-#### What it is:
+## Description
 Provide a unified interface to a set of interfaces in a subsystem. Defines a high- level interface that makes the subsystem easier to use.
 
-![Facade]
+## Structure
+![Facade Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Facade.png)
+
+## Implementation
+The example implements the Facade pattern to organize classes and objects:
+
+## Sample Code
 
 ```php
 
@@ -24,9 +30,9 @@ $this->memory->load(
 );
 $this->processor->jumpTo($position = self::BOOT_ADDRESS);
 $this->processor->execute();
-
 ```
-_[ru][Ru Facade]_
 
-[Facade]: https://github.com/olegre/DesignPatterns/blob/master/~images/Facade.png
-[Ru Facade]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Facade.png
+## When to Use
+- When you want to provide a simple interface to a complex subsystem
+- When there are many dependencies between clients and implementation classes
+- When you want to layer your subsystems

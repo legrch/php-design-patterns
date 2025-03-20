@@ -1,11 +1,17 @@
-### Interpreter
+# Interpreter Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
+## Description
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 
-![Interpreter]
+## Structure
+![Interpreter Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Interpreter.png)
+
+## Implementation
+The example implements the Interpreter pattern to define object behaviors and communication:
+
+## Sample Code
 
 ```php
 
@@ -37,9 +43,9 @@ $expression = new Minus(
 $context = new Context(["a"=>25, "b"=>6, "c"=>5, "d"=>30]);
 $result = $expression->interpret($context);
 $this->assertEquals(4, $result);
-
 ```
-_[ru][Ru Interpreter]_
 
-[Interpreter]: https://github.com/olegre/DesignPatterns/blob/master/~images/Interpreter.png
-[Ru Interpreter]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Interpreter.png
+## When to Use
+- When you need to implement a simple language
+- When you have a language to interpret, and you can represent statements as abstract syntax trees
+- When the grammar is simple and efficiency is not a critical concern

@@ -1,14 +1,22 @@
-### Observer
+# Observer Pattern
 
-#### Type: Behavioral
+## Type: Behavioral
 
-#### What it is:
-Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+## Description
+The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
-![Observer]
+## Structure
+![Observer Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Observer.png)
+
+## Implementation
+The example implements the Observer pattern using a weather station scenario:
+- A `WeatherStationObservable` that maintains a list of observers and notifies them of state changes
+- Multiple `WeatherCustomerObserver` instances that react to changes in the station
+- Methods for attaching, detaching, and notifying observers
+
+## Sample Code
 
 ```php
-
 $station = new WeatherStationObservable();
 $station->setTemperature(15);
 $this->assertEquals(15, $station->getTemperature());
@@ -35,9 +43,10 @@ $station->notify();
 $this->assertEquals(10, $station->getTemperature());
 $this->assertEquals(10, $customer1->getTemperature());
 $this->assertEquals(10, $customer2->getTemperature());
-
 ```
-_[ru][Ru Observer]_
 
-[Observer]: https://github.com/olegre/DesignPatterns/blob/master/~images/Observer.png
-[Ru Observer]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Observer.png
+## When to Use
+- When changes to one object require changing others, and you don't know how many objects need to be changed
+- When an object should be able to notify other objects without making assumptions about those objects
+- For establishing loose coupling between objects that interact with each other
+- When you need a one-to-many dependency between objects

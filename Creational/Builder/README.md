@@ -1,11 +1,17 @@
-### Builder
+# Builder Pattern
 
-#### Type: Creational
+## Type: Creational
 
-#### What it is:
+## Description
 Separate the construction of a complex object from its representing so that the same construction process can create different representations.
 
-![Builder]
+## Structure
+![Builder Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Builder.png)
+
+## Implementation
+The example implements the Builder pattern to create objects in a systematic way:
+
+## Sample Code
 
 ```php
 
@@ -24,9 +30,9 @@ $product = $manager->getProduct();
 
 $this->assertEquals("plane", $product->getName());
 $this->assertEquals(100500, $product->getPrice());
-
 ```
-_[ru][Ru Builder]_
 
-[Builder]: https://github.com/olegre/DesignPatterns/blob/master/~images/Builder.png
-[Ru Builder]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Builder.png
+## When to Use
+- When the construction process must allow different representations for the object constructed
+- When you need to isolate the code for construction and representation
+- When you want to give the client the ability to construct complex objects step by step

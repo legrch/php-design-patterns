@@ -1,11 +1,17 @@
-### Flyweight
+# Flyweight Pattern
 
-#### Type: Structural
+## Type: Structural
 
-#### What it is:
+## Description
 Use sharing to support large numbers of fine grained objects efficiently.
 
-![Flyweight]
+## Structure
+![Flyweight Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Flyweight.png)
+
+## Implementation
+The example implements the Flyweight pattern to organize classes and objects:
+
+## Sample Code
 
 ```php
 
@@ -20,9 +26,9 @@ $this->assertInstanceOf('Structural\Flyweight\Character', $character3);
 
 $this->assertTrue($character1 === $character2);
 $this->assertFalse($character1 === $character3);
-
 ```
-_[ru][Ru Flyweight]_
 
-[Flyweight]: https://github.com/olegre/DesignPatterns/blob/master/~images/Flyweight.png
-[Ru Flyweight]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Flyweight.png
+## When to Use
+- When an application uses a large number of objects that have some shared state
+- When the storage costs are high because of the quantity of objects
+- When most object state can be made extrinsic

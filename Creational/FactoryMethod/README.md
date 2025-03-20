@@ -1,11 +1,17 @@
-### FactoryMethod
+# FactoryMethod Pattern
 
-#### Type: Creational
+## Type: Creational
 
-#### What it is:
+## Description
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
 
-![FactoryMethod]
+## Structure
+![FactoryMethod Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/FactoryMethod.png)
+
+## Implementation
+The example implements the FactoryMethod pattern to create objects in a systematic way:
+
+## Sample Code
 
 ```php
 
@@ -14,9 +20,9 @@ $this->assertInstanceOf('Creational\FactoryMethod\Product\Plane', $factory);
 
 $factory = (new Factory\Car())->instance();
 $this->assertInstanceOf('Creational\FactoryMethod\Product\Car', $factory);
-
 ```
-_[ru][Ru FactoryMethod]_
 
-[FactoryMethod]: https://github.com/olegre/DesignPatterns/blob/master/~images/FactoryMethod.png
-[Ru FactoryMethod]: https://github.com/olegre/DesignPatterns/blob/master/~images/ru/FactoryMethod.png
+## When to Use
+- When a class can't anticipate the type of objects it must create
+- When a class wants its subclasses to specify the objects it creates
+- When you want to localize the knowledge of which class gets created
