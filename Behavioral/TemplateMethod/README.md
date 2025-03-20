@@ -6,7 +6,7 @@
 The Template Method pattern defines the skeleton of an algorithm in an operation, deferring some steps to subclasses. It allows subclasses to redefine certain steps of an algorithm without changing the algorithm's structure.
 
 ## Structure
-![Template Method Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/TemplateMethod.png)
+![Template Method Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/TemplateMethod.png)
 
 ## Implementation
 The example implements the Template Method pattern using a game scenario:

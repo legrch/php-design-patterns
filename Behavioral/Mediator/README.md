@@ -6,7 +6,7 @@
 Define an object that encapsulates how a set of objects interact. Promotes loose coupling by keeping objects from referring to each other explicitly and it lets you vary their interactions independently.
 
 ## Structure
-![Mediator Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Mediator.png)
+![Mediator Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Mediator.png)
 
 ## Implementation
 The example implements the Mediator pattern to define object behaviors and communication:

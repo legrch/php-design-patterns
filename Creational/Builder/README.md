@@ -6,7 +6,7 @@
 Separate the construction of a complex object from its representing so that the same construction process can create different representations.
 
 ## Structure
-![Builder Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Builder.png)
+![Builder Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Builder.png)
 
 ## Implementation
 The example implements the Builder pattern to create objects in a systematic way:

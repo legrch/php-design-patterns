@@ -17,7 +17,7 @@
 - Когда фреймворк должен быть расширяемым во время выполнения с наблюдателями, которые могут быть присоединены и отсоединены динамически
 
 ## Структура
-![Наблюдатель](https://github.com/olegre/DesignPatterns/blob/master/~images/ru/Observer.png)
+![Наблюдатель](https://github.com/legrch/php-design-patterns/blob/master/~images/ru/Observer.png)
 
 ## Участники
 - **Субъект (Observable)**: Знает своих наблюдателей и предоставляет интерфейс для присоединения и отсоединения наблюдателей.

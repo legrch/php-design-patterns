@@ -6,7 +6,7 @@
 The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 ## Structure
-![Observer Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Observer.png)
+![Observer Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Observer.png)
 
 ## Implementation
 The example implements the Observer pattern using a weather station scenario:

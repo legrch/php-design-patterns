@@ -6,7 +6,7 @@
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Lets a class defer instantiation to subclasses.
 
 ## Structure
-![Prototype Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Prototype.png)
+![Prototype Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Prototype.png)
 
 ## Implementation
 The example implements the Prototype pattern to create objects in a systematic way:

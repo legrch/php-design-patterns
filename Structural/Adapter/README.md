@@ -6,7 +6,7 @@
 The Adapter pattern converts the interface of a class into another interface that clients expect. It allows classes to work together that couldn't otherwise because of incompatible interfaces.
 
 ## Structure
-![Adapter Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Adapter.png)
+![Adapter Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Adapter.png)
 
 ## Implementation
 The example implements the Adapter pattern:

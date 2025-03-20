@@ -6,7 +6,7 @@
 Represent an operation to be performed on the elements of an object structure. Lets you define a new operation without changing the classes of the elements on which it operates.
 
 ## Structure
-![Visitor Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Visitor.png)
+![Visitor Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Visitor.png)
 
 ## Implementation
 The example implements the Visitor pattern to define object behaviors and communication:

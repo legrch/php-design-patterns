@@ -6,7 +6,7 @@
 
 
 ## Structure
-![Decorator Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Decorator.png)
+![Decorator Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Decorator.png)
 
 ## Implementation
 The example implements the Decorator pattern to organize classes and objects:

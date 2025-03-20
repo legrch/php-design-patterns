@@ -6,7 +6,7 @@
 Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
 
 ## Structure
-![State Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/State.png)
+![State Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/State.png)
 
 ## Implementation
 The example implements the State pattern to define object behaviors and communication:

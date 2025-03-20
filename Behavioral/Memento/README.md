@@ -6,7 +6,7 @@
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 
 ## Structure
-![Memento Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Memento.png)
+![Memento Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Memento.png)
 
 ## Implementation
 The example implements the Memento pattern to define object behaviors and communication:

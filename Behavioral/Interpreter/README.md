@@ -6,7 +6,7 @@
 Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
 
 ## Structure
-![Interpreter Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Interpreter.png)
+![Interpreter Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Interpreter.png)
 
 ## Implementation
 The example implements the Interpreter pattern to define object behaviors and communication:

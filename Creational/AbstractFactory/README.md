@@ -6,7 +6,7 @@
 Provides an interface for creating families of related or dependent objects without specifying their concrete class.
 
 ## Structure
-![Abstract Factory Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/AbstractFactory.png)
+![Abstract Factory Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/AbstractFactory.png)
 
 ## Implementation
 The example implements the Abstract Factory pattern with a book publishing scenario:

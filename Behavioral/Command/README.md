@@ -6,7 +6,7 @@
 The Command pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undoable operations.
 
 ## Structure
-![Command Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Command.png)
+![Command Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Command.png)
 
 ## Implementation
 The example implements the Command pattern using a calculator scenario:

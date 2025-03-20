@@ -6,7 +6,7 @@
 The Singleton pattern ensures a class only has one instance and provides a global point of access to it.
 
 ## Structure
-![Singleton Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Singleton.png)
+![Singleton Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Singleton.png)
 
 ## Implementation
 The example implements the Singleton pattern:

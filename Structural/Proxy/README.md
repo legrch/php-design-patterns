@@ -6,7 +6,7 @@
 Provide a surrogate or placeholder for another object to control access to it.
 
 ## Structure
-![Proxy Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Proxy.png)
+![Proxy Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Proxy.png)
 
 ## Implementation
 The example implements the Proxy pattern to organize classes and objects:

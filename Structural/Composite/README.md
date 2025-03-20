@@ -6,7 +6,7 @@
 Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't otherwise because of incompatible interfaces.
 
 ## Structure
-![Composite Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Composite.png)
+![Composite Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Composite.png)
 
 ## Implementation
 The example implements the Composite pattern to organize classes and objects:

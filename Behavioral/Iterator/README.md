@@ -6,7 +6,7 @@
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 
 ## Structure
-![Iterator Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Iterator.png)
+![Iterator Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Iterator.png)
 
 ## Implementation
 The example implements the Iterator pattern with a shop collection:

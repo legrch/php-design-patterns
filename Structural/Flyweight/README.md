@@ -6,7 +6,7 @@
 Use sharing to support large numbers of fine grained objects efficiently.
 
 ## Structure
-![Flyweight Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Flyweight.png)
+![Flyweight Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Flyweight.png)
 
 ## Implementation
 The example implements the Flyweight pattern to organize classes and objects:

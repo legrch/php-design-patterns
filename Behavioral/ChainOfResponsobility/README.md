@@ -6,7 +6,7 @@
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 
 ## Structure
-![ChainOfResponsobility Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/ChainOfResponsobility.png)
+![ChainOfResponsobility Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/ChainOfResponsobility.png)
 
 ## Implementation
 The example implements the ChainOfResponsobility pattern to define object behaviors and communication:

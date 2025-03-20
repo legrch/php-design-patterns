@@ -6,7 +6,7 @@
 Convert the interface of a class into another interface clients expect. Lets classes work together that couldn't otherwise because of incompatible interfaces.
 
 ## Structure
-![Bridge Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Bridge.png)
+![Bridge Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Bridge.png)
 
 ## Implementation
 The example implements the Bridge pattern to organize classes and objects:

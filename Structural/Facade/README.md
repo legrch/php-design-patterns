@@ -6,7 +6,7 @@
 Provide a unified interface to a set of interfaces in a subsystem. Defines a high- level interface that makes the subsystem easier to use.
 
 ## Structure
-![Facade Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Facade.png)
+![Facade Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Facade.png)
 
 ## Implementation
 The example implements the Facade pattern to organize classes and objects:

@@ -6,7 +6,7 @@
 The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. It allows the algorithm to vary independently from clients that use it.
 
 ## Structure
-![Strategy Pattern](https://github.com/olegre/DesignPatterns/blob/master/~images/Strategy.png)
+![Strategy Pattern](https://github.com/legrch/php-design-patterns/blob/master/~images/Strategy.png)
 
 ## Implementation
 The example implements the Strategy pattern using different billing strategies:
